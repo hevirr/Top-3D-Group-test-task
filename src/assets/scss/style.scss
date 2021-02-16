@@ -1,0 +1,25 @@
+@import './vendor/reset.scss';
+
+@import 'vars';
+
+@import 'header.scss';
+@import 'main.scss';
+@import 'about.scss';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1235px;
+}

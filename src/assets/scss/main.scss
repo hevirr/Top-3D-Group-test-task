@@ -1,0 +1,121 @@
+.main {
+  margin: 70px 0;
+}
+
+.job {
+  margin-top: 50px;
+  display: flex;
+}
+
+.job__resume {
+  width: 50%;
+
+  .poster {
+    width: 333px;
+    margin-bottom: 40px;
+
+    font-family: SF Pro Display;
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .submit-resume {
+    background: #d2001c;
+    border: none;
+    border-radius: 4px;
+    width: 280px;
+    height: 44px;
+    color: #fff;
+
+    font-family: SF Pro Text;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.7px;
+  }
+
+  .submit-resume__details {
+    margin-top: 20px;
+    max-width: 280px;
+
+    color: #c4c4c4;
+    font-family: SF Pro Text;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.7px;
+  }
+}
+
+.job__description {
+  max-width: 710px;
+
+  color: #4d4d4d;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: -0.7px;
+
+  p {
+    margin-bottom: 13px;
+  }
+}
+
+.details {
+  margin-top: 70px;
+}
+
+.detail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+  color: #222222;
+  font-family: SF Pro Text;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  letter-spacing: -0.7px;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 78%;
+    border-top: 1px solid #e6e6e6;
+    opacity: 0.8;
+  }
+}
+
+.details__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: #4d4d4d;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    &:last-child {
+      margin-right: 80px;
+    }
+
+    &::after {
+      content: '\203a';
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    &:hover {
+      color: #d2001c;
+    }
+  }
+}
