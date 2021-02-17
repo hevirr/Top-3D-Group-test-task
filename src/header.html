@@ -1,10 +1,10 @@
-<header class="header">
+<header class="header" >
   <div class="header-top">
-    <div class="header-top__wrapper">
+    <div class="header-top__wrapper" >
       <div class="header-top__info">
         <div class="header-top__city">Санкт-Петербург</div>
-        <div>+7 (812) 613-58-38</div>
-        <div>Пн-пт 10:00-19:00, сб-вс 10:00-17:00 </div>
+        <div class="header-top__phonenumber">+7 (812) 613-58-38</div>
+        <div class="header-top__schedule" >Пн-пт 10:00-19:00, сб-вс 10:00-17:00 </div>
       </div>
       <div class="header-top__contacts">
         <div>Напишите нам</div>
@@ -15,6 +15,9 @@
           <img class="phone-logo" src="./assets/img/logo/phone_logo.svg" alt="phone">
         </div>
       </div>
+      <div class="header-top__querry">
+        Наши контакты
+      </div>
     </div>
   </div>
   
@@ -22,7 +25,7 @@
     <div class="header-middle-u">
 
       <div class="header-middle-u__face">
-        <img class="main-logo" src="./assets/img/logo/main_logo1.svg" alt="main-logo">
+        <img class="main-logo" src="./assets/img/logo/main_logo.svg" alt="main-logo">
         <div class="motto">Ваш эксперт <br /> на рынке <span>3D</span>-техники</div>
       </div>
 
@@ -40,12 +43,28 @@
       </div>
 
       <div class="header-middle-u__bin">
-        <button>Корзина пуста</button>
+        <button>Корзина <span class="querry-hide">пуста</span></button>
       </div>
 
     </div>
+    
+    <div class="querry-small">
+      <div class="header-middle-u__log querry-small">
+        <a href="#">Войти</a>
+      </div>
+  
+      <div class="header-middle-u__bin querry-small">
+        <button>Корзина <span class="querry-hide">пуста</span></button>
+      </div>
+    </div>
+
+    <div class="header-querry__searchbar">
+      <input type="text" placeholder="Введите запрос, например, Formlabs Form 2">
+      <input type="submit" value="Найти">
+    </div>
 
     <div class="header-middle-l">
+      <div class="header-middle-l__burger">Ссылки</div>
       <a class="header-middle-l__link" href="#">Акции</a>
       <a class="header-middle-l__link" href="#">О нас</a>
       <a class="header-middle-l__link" href="#">Мероприятия</a>
@@ -58,14 +77,26 @@
     </div>
   </div> 
 
-    <div class="header-bottom">
-      <div class="header-bottom__wrapper">
+    <div class="header-bottom"> 
+      <div class="header-bottom__burger">Статьи</div>
+      <div class="header-bottom__wrapper querry-dependent">
         <div class="header-bottom__btn">3D-принтеры</div>
         <div class="header-bottom__btn">3D-сканеры</div>
         <div class="header-bottom__btn">Станки</div>
         <div class="header-bottom__btn">Роботы</div>
         <div class="header-bottom__btn">Образование</div>
-        <div class="header-bottom__btn">Стоматологам</div>
+        <div class="header-bottom__btn ">Стоматологам</div>
+        <div class="header-bottom__btn querry-hide">Гаджеты</div>
+        <div class="header-bottom__btn querry-hide">Материалы</div>
+        <div class="header-bottom__btn querry-hide">ПО</div>
+        <div class="header-bottom__btn querry-hide">Решения</div>
+        <div class="header-bottom__btn querry-hide">Учебный центр</div>
+        <div class="header-bottom__btn querry-hide">Услуги</div>
+      </div>
+    </div>
+
+    <div class="header-bottom querry-show">
+      <div class="header-bottom__wrapper ">
         <div class="header-bottom__btn">Гаджеты</div>
         <div class="header-bottom__btn">Материалы</div>
         <div class="header-bottom__btn">ПО</div>

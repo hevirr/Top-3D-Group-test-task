@@ -18,9 +18,16 @@ body {
     'Noto Color Emoji';
   font-size: 1.4rem;
   color: #000;
+  // margin: 0 auto;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: 1235px;
 }
+
+.querry-show {
+  display: none;
+}
+
+@import '_media.scss';

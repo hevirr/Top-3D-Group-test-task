@@ -2,6 +2,13 @@
   margin: 70px 0;
 }
 
+.team-photo {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .job {
   margin-top: 50px;
   display: flex;
@@ -13,6 +20,7 @@
   .poster {
     width: 333px;
     margin-bottom: 40px;
+    margin-right: 15px;
 
     font-family: 'SFProDisplay-Regular', sans-serif;
     font-size: 27px;
