@@ -14,7 +14,7 @@
     width: 333px;
     margin-bottom: 40px;
 
-    font-family: SF Pro Display;
+    font-family: 'SFProDisplay-Regular', sans-serif;
     font-size: 27px;
     line-height: 32px;
   }
@@ -27,11 +27,19 @@
     height: 44px;
     color: #fff;
 
-    font-family: SF Pro Text;
+    font-family: 'SFProText-Regular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.7px;
+
+    transition-duration: 0.3s;
+
+    &:hover {
+      box-shadow: 0 0.5em 0.5em -0.4em red;
+      transform: translateY(-0.25em);
+      transition-duration: 0.3s;
+    }
   }
 
   .submit-resume__details {
@@ -39,7 +47,7 @@
     max-width: 280px;
 
     color: #c4c4c4;
-    font-family: SF Pro Text;
+    font-family: 'SFProText-Regular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -51,7 +59,7 @@
   max-width: 710px;
 
   color: #4d4d4d;
-  font-family: SF Pro Text;
+  font-family: 'SFProText-Regular', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -60,6 +68,10 @@
 
   p {
     margin-bottom: 13px;
+
+    a {
+      color: red;
+    }
   }
 }
 
@@ -74,7 +86,7 @@
   margin-bottom: 50px;
 
   color: #222222;
-  font-family: SF Pro Text;
+  font-family: 'SFProText-Regular', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -98,7 +110,7 @@
 
   a {
     color: #4d4d4d;
-    font-family: SF Pro Display;
+    font-family: 'SFProDisplay-Regular', sans-serif;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
